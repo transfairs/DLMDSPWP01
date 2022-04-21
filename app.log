@@ -1,0 +1,55 @@
+[2022-04-21 02:38:11] root     - DEBUG    - Debugging
+[2022-04-21 02:38:11] root     - INFO     - App started
+[2022-04-21 02:38:11] root     - WARNING  - Test logger
+[2022-04-21 02:38:56] root     - INFO     - App started
+[2022-04-21 02:39:05] root     - INFO     - App started
+[2022-04-21 02:39:35] root     - INFO     - App started
+[2022-04-21 02:39:41] root     - INFO     - App started
+[2022-04-21 02:40:33] root     - INFO     - App started
+[2022-04-21 02:42:01] root     - INFO     - App started
+[2022-04-21 02:42:22] root     - INFO     - App started
+[2022-04-21 02:42:22] root     - DEBUG    - Debugging
+[2022-04-21 02:42:22] root     - WARNING  - Test logger
+[2022-04-21 02:43:18] root     - INFO     - App started
+[2022-04-21 02:43:18] root     - DEBUG    - Debugging
+[2022-04-21 02:43:18] root     - WARNING  - Test logger
+[2022-04-21 02:43:33] root     - INFO     - App started
+[2022-04-21 02:44:29] root     - INFO     - App started
+[2022-04-21 02:44:29] root     - DEBUG    - Debugging
+[2022-04-21 02:44:29] root     - WARNING  - Test logger
+[2022-04-21 02:45:17] root     - INFO     - App started
+[2022-04-21 02:45:17] root     - DEBUG    - Debugging
+[2022-04-21 02:45:17] root     - WARNING  - Test logger
+[2022-04-21 02:50:38] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:20:28] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:20:28] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:23:33] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:23:33] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:23:47] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:23:47] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:25:01] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:25:01] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:26:46] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:26:46] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:39:41] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:39:41] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:39:46] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:39:46] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:40:00] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:40:00] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:48:46] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:48:46] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:48:56] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:48:56] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:49:01] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:49:01] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:50:16] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:50:16] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 03:50:23] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 03:50:23] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 05:44:41] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 05:44:41] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 05:49:14] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 05:49:14] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 05:51:32] root     - INFO     - File loaded: data/train.csv
+[2022-04-21 05:51:32] root     - INFO     - File loaded: data/ideal.csv
