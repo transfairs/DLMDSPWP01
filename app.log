@@ -53,3 +53,11 @@
 [2022-04-21 05:49:14] root     - INFO     - File loaded: data/ideal.csv
 [2022-04-21 05:51:32] root     - INFO     - File loaded: data/train.csv
 [2022-04-21 05:51:32] root     - INFO     - File loaded: data/ideal.csv
+[2022-04-21 22:06:27] root   - INFO     - App started
+[2022-04-21 22:06:27] root   - DEBUG    - Debugging
+[2022-04-21 22:06:27] root   - WARNING  - Test logger
+[2022-04-21 23:13:02] root   - INFO     - App started
+[2022-04-21 23:13:02] root   - DEBUG    - Debugging
+[2022-04-21 23:13:02] root   - WARNING  - Test logger
+[2022-04-21 23:13:06] root   - INFO     - File loaded: data/train.csv
+[2022-04-21 23:13:06] root   - INFO     - File loaded: data/ideal.csv
