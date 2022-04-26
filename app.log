@@ -61,3 +61,180 @@
 [2022-04-21 23:13:02] root   - WARNING  - Test logger
 [2022-04-21 23:13:06] root   - INFO     - File loaded: data/train.csv
 [2022-04-21 23:13:06] root   - INFO     - File loaded: data/ideal.csv
+[2022-04-23 20:28:22] root   - INFO     - App started
+[2022-04-23 20:28:22] root   - DEBUG    - Debugging
+[2022-04-23 20:28:22] root   - WARNING  - Test logger
+[2022-04-23 20:28:28] root   - INFO     - File loaded: data/train.csv
+[2022-04-23 20:28:28] root   - INFO     - File loaded: data/ideal.csv
+[2022-04-24 07:44:12] root   - INFO     - App started
+[2022-04-24 07:44:12] root   - DEBUG    - Debugging
+[2022-04-24 07:44:12] root   - WARNING  - Test logger
+[2022-04-24 07:44:12] root   - INFO     - File loaded: data/train.csv
+[2022-04-24 07:44:12] root   - INFO     - File loaded: data/ideal.csv
+[2022-04-24 07:57:04] root   - INFO     - App started
+[2022-04-24 07:57:04] root   - DEBUG    - Debugging
+[2022-04-24 07:57:04] root   - WARNING  - Test logger
+[2022-04-24 07:57:04] root   - INFO     - File loaded: data/train.csv
+[2022-04-24 07:57:04] root   - INFO     - File loaded: data/ideal.csv
+[2022-04-24 17:22:42] root   - INFO     - App started
+[2022-04-24 17:22:42] root   - DEBUG    - Debugging
+[2022-04-24 17:22:42] root   - WARNING  - Test logger
+[2022-04-24 17:22:53] root   - INFO     - App started
+[2022-04-24 17:22:53] root   - DEBUG    - Debugging
+[2022-04-24 17:22:53] root   - WARNING  - Test logger
+[2022-04-25 16:09:35] root   - INFO     - App started
+[2022-04-25 16:09:35] root   - DEBUG    - Debugging
+[2022-04-25 16:09:35] root   - WARNING  - Test logger
+[2022-04-27 00:58:09] root   - INFO     - App started
+[2022-04-27 00:58:09] root   - DEBUG    - Debugging
+[2022-04-27 00:58:09] root   - WARNING  - Test logger
+[2022-04-27 00:59:23] root   - INFO     - App started
+[2022-04-27 00:59:23] root   - DEBUG    - Debugging
+[2022-04-27 00:59:23] root   - WARNING  - Test logger
+[2022-04-27 01:01:14] root   - INFO     - App started
+[2022-04-27 01:01:14] root   - DEBUG    - Debugging
+[2022-04-27 01:01:14] root   - WARNING  - Test logger
+[2022-04-27 01:01:52] root   - INFO     - App started
+[2022-04-27 01:01:52] root   - DEBUG    - Debugging
+[2022-04-27 01:01:52] root   - WARNING  - Test logger
+[2022-04-27 01:02:52] root   - INFO     - App started
+[2022-04-27 01:02:52] root   - DEBUG    - Debugging
+[2022-04-27 01:02:52] root   - WARNING  - Test logger
+[2022-04-27 01:19:32] root   - INFO     - App started
+[2022-04-27 01:19:32] root   - DEBUG    - Debugging
+[2022-04-27 01:19:32] root   - WARNING  - Test logger
+[2022-04-27 01:46:44] root   - INFO     - App started
+[2022-04-27 01:46:44] root   - DEBUG    - Debugging
+[2022-04-27 01:46:44] root   - WARNING  - Test logger
+[2022-04-27 04:18:22] root   - INFO     - App started
+[2022-04-27 04:18:22] root   - DEBUG    - Debugging
+[2022-04-27 04:18:22] root   - WARNING  - Test logger
+[2022-04-27 04:29:33] root   - INFO     - App started
+[2022-04-27 04:29:33] root   - DEBUG    - Debugging
+[2022-04-27 04:29:33] root   - WARNING  - Test logger
+[2022-04-27 04:30:40] root   - INFO     - App started
+[2022-04-27 04:30:40] root   - DEBUG    - Debugging
+[2022-04-27 04:30:40] root   - WARNING  - Test logger
+[2022-04-27 04:31:14] root   - INFO     - App started
+[2022-04-27 04:31:14] root   - DEBUG    - Debugging
+[2022-04-27 04:31:14] root   - WARNING  - Test logger
+[2022-04-27 04:31:59] root   - INFO     - App started
+[2022-04-27 04:31:59] root   - DEBUG    - Debugging
+[2022-04-27 04:31:59] root   - WARNING  - Test logger
+[2022-04-27 04:36:10] root   - INFO     - App started
+[2022-04-27 04:36:10] root   - DEBUG    - Debugging
+[2022-04-27 04:36:10] root   - WARNING  - Test logger
+[2022-04-27 04:38:26] root   - INFO     - App started
+[2022-04-27 04:38:26] root   - DEBUG    - Debugging
+[2022-04-27 04:38:26] root   - WARNING  - Test logger
+[2022-04-27 04:39:49] root   - INFO     - App started
+[2022-04-27 04:39:49] root   - DEBUG    - Debugging
+[2022-04-27 04:39:49] root   - WARNING  - Test logger
+[2022-04-27 04:40:46] root   - INFO     - App started
+[2022-04-27 04:40:46] root   - DEBUG    - Debugging
+[2022-04-27 04:40:46] root   - WARNING  - Test logger
+[2022-04-27 04:44:06] root   - INFO     - App started
+[2022-04-27 04:44:06] root   - DEBUG    - Debugging
+[2022-04-27 04:44:06] root   - WARNING  - Test logger
+[2022-04-27 04:47:55] root   - INFO     - App started
+[2022-04-27 04:47:55] root   - DEBUG    - Debugging
+[2022-04-27 04:47:55] root   - WARNING  - Test logger
+[2022-04-27 04:49:06] root   - INFO     - App started
+[2022-04-27 04:49:06] root   - DEBUG    - Debugging
+[2022-04-27 04:49:06] root   - WARNING  - Test logger
+[2022-04-27 04:49:39] root   - INFO     - App started
+[2022-04-27 04:49:39] root   - DEBUG    - Debugging
+[2022-04-27 04:49:39] root   - WARNING  - Test logger
+[2022-04-27 04:50:22] root   - INFO     - App started
+[2022-04-27 04:50:22] root   - DEBUG    - Debugging
+[2022-04-27 04:50:22] root   - WARNING  - Test logger
+[2022-04-27 04:51:34] root   - INFO     - App started
+[2022-04-27 04:51:34] root   - DEBUG    - Debugging
+[2022-04-27 04:51:34] root   - WARNING  - Test logger
+[2022-04-27 04:52:04] root   - INFO     - App started
+[2022-04-27 04:52:04] root   - DEBUG    - Debugging
+[2022-04-27 04:52:04] root   - WARNING  - Test logger
+[2022-04-27 04:53:19] root   - INFO     - App started
+[2022-04-27 04:53:19] root   - DEBUG    - Debugging
+[2022-04-27 04:53:19] root   - WARNING  - Test logger
+[2022-04-27 04:54:42] root   - INFO     - App started
+[2022-04-27 04:54:42] root   - DEBUG    - Debugging
+[2022-04-27 04:54:42] root   - WARNING  - Test logger
+[2022-04-27 04:57:18] root   - INFO     - App started
+[2022-04-27 04:57:18] root   - DEBUG    - Debugging
+[2022-04-27 04:57:18] root   - WARNING  - Test logger
+[2022-04-27 04:58:13] root   - INFO     - App started
+[2022-04-27 04:58:13] root   - DEBUG    - Debugging
+[2022-04-27 04:58:13] root   - WARNING  - Test logger
+[2022-04-27 05:00:34] root   - INFO     - App started
+[2022-04-27 05:00:34] root   - DEBUG    - Debugging
+[2022-04-27 05:00:34] root   - WARNING  - Test logger
+[2022-04-27 05:03:27] root   - INFO     - App started
+[2022-04-27 05:03:27] root   - DEBUG    - Debugging
+[2022-04-27 05:03:27] root   - WARNING  - Test logger
+[2022-04-27 05:03:50] root   - INFO     - App started
+[2022-04-27 05:03:50] root   - DEBUG    - Debugging
+[2022-04-27 05:03:50] root   - WARNING  - Test logger
+[2022-04-27 05:04:31] root   - INFO     - App started
+[2022-04-27 05:04:31] root   - DEBUG    - Debugging
+[2022-04-27 05:04:31] root   - WARNING  - Test logger
+[2022-04-27 05:05:49] root   - INFO     - App started
+[2022-04-27 05:05:49] root   - DEBUG    - Debugging
+[2022-04-27 05:05:49] root   - WARNING  - Test logger
+[2022-04-27 05:11:22] root   - INFO     - App started
+[2022-04-27 05:11:22] root   - DEBUG    - Debugging
+[2022-04-27 05:11:22] root   - WARNING  - Test logger
+[2022-04-27 05:12:08] root   - INFO     - App started
+[2022-04-27 05:12:08] root   - DEBUG    - Debugging
+[2022-04-27 05:12:08] root   - WARNING  - Test logger
+[2022-04-27 05:12:37] root   - INFO     - App started
+[2022-04-27 05:12:37] root   - DEBUG    - Debugging
+[2022-04-27 05:12:37] root   - WARNING  - Test logger
+[2022-04-27 05:13:07] root   - INFO     - App started
+[2022-04-27 05:13:07] root   - DEBUG    - Debugging
+[2022-04-27 05:13:07] root   - WARNING  - Test logger
+[2022-04-27 05:13:21] root   - INFO     - App started
+[2022-04-27 05:13:21] root   - DEBUG    - Debugging
+[2022-04-27 05:13:21] root   - WARNING  - Test logger
+[2022-04-27 05:13:36] root   - INFO     - App started
+[2022-04-27 05:13:36] root   - DEBUG    - Debugging
+[2022-04-27 05:13:36] root   - WARNING  - Test logger
+[2022-04-27 05:14:11] root   - INFO     - App started
+[2022-04-27 05:14:11] root   - DEBUG    - Debugging
+[2022-04-27 05:14:11] root   - WARNING  - Test logger
+[2022-04-27 05:14:31] root   - INFO     - App started
+[2022-04-27 05:14:31] root   - DEBUG    - Debugging
+[2022-04-27 05:14:31] root   - WARNING  - Test logger
+[2022-04-27 05:15:57] root   - INFO     - App started
+[2022-04-27 05:15:57] root   - DEBUG    - Debugging
+[2022-04-27 05:15:57] root   - WARNING  - Test logger
+[2022-04-27 05:16:13] root   - INFO     - App started
+[2022-04-27 05:16:13] root   - DEBUG    - Debugging
+[2022-04-27 05:16:13] root   - WARNING  - Test logger
+[2022-04-27 05:18:21] root   - INFO     - App started
+[2022-04-27 05:18:21] root   - DEBUG    - Debugging
+[2022-04-27 05:18:21] root   - WARNING  - Test logger
+[2022-04-27 05:18:54] root   - INFO     - App started
+[2022-04-27 05:18:54] root   - DEBUG    - Debugging
+[2022-04-27 05:18:54] root   - WARNING  - Test logger
+[2022-04-27 05:19:39] root   - INFO     - App started
+[2022-04-27 05:19:39] root   - DEBUG    - Debugging
+[2022-04-27 05:19:39] root   - WARNING  - Test logger
+[2022-04-27 05:22:47] root   - INFO     - App started
+[2022-04-27 05:22:47] root   - DEBUG    - Debugging
+[2022-04-27 05:22:47] root   - WARNING  - Test logger
+[2022-04-27 05:23:54] root   - INFO     - App started
+[2022-04-27 05:23:54] root   - DEBUG    - Debugging
+[2022-04-27 05:23:54] root   - WARNING  - Test logger
+[2022-04-27 05:24:16] root   - INFO     - App started
+[2022-04-27 05:24:16] root   - DEBUG    - Debugging
+[2022-04-27 05:24:16] root   - WARNING  - Test logger
+[2022-04-27 05:27:02] root   - INFO     - App started
+[2022-04-27 05:27:02] root   - DEBUG    - Debugging
+[2022-04-27 05:27:02] root   - WARNING  - Test logger
+[2022-04-27 05:33:51] root   - INFO     - App started
+[2022-04-27 05:33:51] root   - DEBUG    - Debugging
+[2022-04-27 05:33:51] root   - WARNING  - Test logger
+[2022-04-27 05:34:01] root   - INFO     - App started
+[2022-04-27 05:34:01] root   - DEBUG    - Debugging
+[2022-04-27 05:34:01] root   - WARNING  - Test logger
