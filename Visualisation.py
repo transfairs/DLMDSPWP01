@@ -3,22 +3,58 @@ import bokeh as bk
 from bokeh.layouts import row, gridplot
 from bokeh.models import Band, ColumnDataSource
 from bokeh.plotting import figure, output_file, show
+from dataclasses import dataclass
 import math
 import numpy as np
 import pandas as pd
 import os
 import re
 
+@dataclass
 class Data():
-    def __init__(self, label, data, vtype="line", color="blue", line_width=1):
-        self.label = label
-        self.data = data
-        self.vtype = vtype
-        self.color = color
-        self.line_width = line_width
+    '''
+    Holds data to display and information about how to format a chart.
 
+    Args:
+        label: Name of the chart.
+        data: Data to be displayed
+        vtype: Symbol type used in the chart. Defaults to line.
+        color: Color of the symbols.
+    
+    '''
+
+    label: str
+    data: pd.DataFrame
+    vtype: str = "line"
+    color: str = "blue"
+    line_width: int = 1
+
+        
 class Visualizer(ABC):
-    def __init__(self, real_data, result_data=None, ideal_data=None, label=None, plot = None):
+    '''
+    Blueprint class for creating different kind of charts.
+    
+    Creates the `output` URL from 'label' if provided.
+
+    Args:
+        real_data: Data to be displayed in the chart.
+        result_data: Additional information about `real_data`. 
+            Defaults to None.
+        ideal_data: Ideal functions for providing an overlay. Defaults to None.
+        label: Name of the Chart. Defaults to None.
+        plot (bokeh.plotting.figure.Figure): An existing plot.
+    
+    Attributes:
+        label: Name of the Chart.
+        output: URL of the HTML output file.
+        real: Data to be displayed in the chart.
+        result: Additional information about `real`. 
+        ideal: Ideal functions for providing an overlay.
+    
+    '''
+
+    def __init__(self, real_data, result_data=None, ideal_data=None, \
+                 label=None, plot = None):
         self.label = (label if label else "unnamed")
         self.output = "{}.html".format(Visualizer.to_url(self.label))
         self.remove_file()
@@ -30,11 +66,27 @@ class Visualizer(ABC):
         self.ideal = ideal_data
     
     def new_plot(self):
-        self._plot = figure(title="{}".format(self.label), x_axis_label="x", y_axis_label="y")
+        '''Creates a new (x,y) plot for the instance, titled `label` value.
+
+        Returns:
+            The created plot.
+
+        '''
+        self._plot = figure(title="{}".format(self.label), x_axis_label="x", \
+                            y_axis_label="y")
         return self._plot
 
     @staticmethod
     def to_url(str):
+        '''Removes special characters from a string.
+
+        Args:
+            str: The string to be cleaned.
+
+        Returns:
+            The cleaned string, consisting of word characters only.
+
+        '''
         # Replace all whitespaces with an underscore.
         str = re.sub("\s+", "_", str).lower()
 
@@ -42,6 +94,19 @@ class Visualizer(ABC):
         return re.sub("[^\w]", "", str)
 
     def graphs(self, vtype):
+        '''Selects glyphs factory method for a related string value.
+
+        This can be used as a switch-case instruction.
+
+        Args:
+            vtype (str): One of `line` or `circle`.
+
+        Returns:
+            bokeh.models.renderers.DataRenderer.GlyphRenderer: Glyph type \
+                creator for `_plot`.
+            
+        '''
+###############################################################################
         return {
             "line": self._plot.line,
             "circle": self._plot.circle,
@@ -175,7 +240,10 @@ class PlotFactory():
             for index, row in v.result.iterrows():
                 v.create_plot(Data(index, v.real, color="red", vtype="circle"), \
                               Data(row.min_y, v.ideal, line_width=3))
-                v.additional_elements(index, row.min_y)
+                try:
+                    v.additional_elements(index, row.min_y)
+                except ValueError as e:
+                    print("Cannot add index {} with value {}: {}".format(index, row.min_y, e))
                 data = np.append(data, v.plot)
                 v.new_plot()
 
