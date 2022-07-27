@@ -78,7 +78,7 @@ class Regression():
         '''
         if not isinstance(training, pd.core.series.Series):
             raise RegressionException("Wrong type for parameter training. " + \
-                                      "Pandas data frame expected.")
+                                      "Pandas Series expected.")
             
         try:
             return self._ideal.apply(mean_squared_error,y_pred=training)
@@ -111,7 +111,7 @@ class Regression():
                 raise RegressionException("Found NaN values in " + 
                                           "max_deviation column.")
             return diff.max()*math.sqrt(2)
-        except:
+        except Exception as e:
             raise RegressionException("{} raised: {}"\
                                       .format(type(e).__name__, e))
 

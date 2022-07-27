@@ -29,7 +29,7 @@ class PersistenceUtil():
                 db.sql.sqltypes.VARCHAR.
 
         Returns:
-            Cast operation for matched data type or str() by default.
+            type: Cast operation for matched data type or str() by default.
             
         '''
         return {
