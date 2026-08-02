@@ -2,6 +2,8 @@
 
 This project implements an AI-assisted system for matching real-world test data to ideal mathematical functions. It uses regression techniques and structured data analysis to find the best-fitting function for each test datapoint.
 
+🔗 [Project page](https://transfairs.github.io/ai-function-matcher/)
+
 ## 🔍 Purpose
 
 The goal of the system is to:
