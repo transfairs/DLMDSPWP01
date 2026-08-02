@@ -1,4 +1,4 @@
-# 🧠 AI Function Matcher
+# <img src="assets/icon.svg" alt="" width="30" align="center"> AI Function Matcher
 
 This project implements an AI-assisted system for matching real-world test data to ideal mathematical functions. It uses regression techniques and structured data analysis to find the best-fitting function for each test datapoint.
 
